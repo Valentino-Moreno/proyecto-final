@@ -1,0 +1,27 @@
+@import "../utiles/vars";
+footer{
+    border-top: 3px solid map-get($colores, azul );
+    .logfoot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p{
+            display: none;
+        }
+        img{
+            max-width: 190px;
+            border-bottom: 3px solid map-get($colores, azul);
+            padding: 10px 0px;
+        }
+        .sociales{
+            padding: 10px 0px;
+            @extend %centrar;
+            a{
+                color: map-get($colores, gris);
+                font-size: $tam-sociales;
+                padding: 0px 5px;
+            }
+        }
+    }
+}

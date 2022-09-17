@@ -11,8 +11,18 @@ $colores:(
 // variables vista mobile
 
 $tama:1.2em;
+$tam-sociales:3em;
 
 
 // variables vista escritorio
 
 $tama_e:1.4em;
+
+// extends
+
+%centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

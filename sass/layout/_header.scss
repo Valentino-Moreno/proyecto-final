@@ -14,7 +14,7 @@ header{
                         font-size: $tama;
                         transition: all 0.2s;
                         &:hover{
-                            color: map-get($colores,celeste);
+                            color: map-get($colores,azul);
                             border-left: solid 7px map-get($colores,azul );
                         }
                     }
@@ -35,6 +35,12 @@ header{
                     li{
                         a{
                             font-size: $tama_e;
+                            transition: all 0.2s;
+                            &:hover{
+                                transform: translateY(-10px);
+                                border-left: none;
+                                border-bottom: 5px solid map-get($colores,azul);
+                            }
                         }
                     }
                 }
