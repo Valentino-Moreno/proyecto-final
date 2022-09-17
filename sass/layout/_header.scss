@@ -1,0 +1,44 @@
+@import"../utiles/vars";
+header{
+    nav{
+        .barra{
+            background-color: map-get($colores, blanco);
+            img{
+                max-width: 180px;
+            }
+            ul{
+                li{
+                    a{
+                        text-align: center;
+                        color: map-get($colores,azul);
+                        font-size: $tama;
+                        transition: all 0.2s;
+                        &:hover{
+                            color: map-get($colores,celeste);
+                            border-left: solid 7px map-get($colores,azul );
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 990px){
+    header{
+        nav{
+            .barra{
+                img{
+                    max-width: 250px;
+                }
+                ul{
+                    padding-left: 34em;
+                    li{
+                        a{
+                            font-size: $tama_e;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
