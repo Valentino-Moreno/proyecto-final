@@ -1,20 +1,24 @@
 @import "../utiles/vars";
 footer{
-    border-top: 3px solid map-get($colores, azul );
+    border-top: 5px solid map-get($colores, azul );
     .logfoot{
+   
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 20px;
         p{
             display: none;
         }
         img{
-            max-width: 190px;
-            border-bottom: 3px solid map-get($colores, azul);
+            width: 200px;
+            
             padding: 10px 0px;
         }
         .sociales{
+            border-top: 3px dotted map-get($colores, azul);
+            width: 30vh;
             padding: 10px 0px;
             @extend %centrar;
             a{
@@ -24,4 +28,31 @@ footer{
             }
         }
     }
+}
+
+
+@media (min-width: 990px){
+    footer{
+        .logfoot{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            img{
+                width: 250px;
+            }
+            p{
+                display: block;
+            }
+            .sociales{
+                border:none
+            }
+        }
+    }
+}
+
+.algo{
+    background-color: black;
+    height: 100vh;
 }

@@ -10,25 +10,48 @@ footer .logfoot .sociales {
   align-items: center;
   align-content: center; }
 
+li {
+  list-style: none; }
+
 footer {
-  border-top: 3px solid #004aad; }
+  border-top: 5px solid #004aad; }
   footer .logfoot {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-top: 20px; }
     footer .logfoot p {
       display: none; }
     footer .logfoot img {
-      max-width: 190px;
-      border-bottom: 3px solid #004aad;
+      width: 200px;
       padding: 10px 0px; }
     footer .logfoot .sociales {
+      border-top: 3px dotted #004aad;
+      width: 30vh;
       padding: 10px 0px; }
       footer .logfoot .sociales a {
         color: #737373;
         font-size: 3em;
         padding: 0px 5px; }
+
+@media (min-width: 990px) {
+  footer .logfoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center; }
+    footer .logfoot img {
+      width: 250px; }
+    footer .logfoot p {
+      display: block; }
+    footer .logfoot .sociales {
+      border: none; } }
+
+.algo {
+  background-color: black;
+  height: 100vh; }
 
 footer .logfoot .sociales {
   display: flex;
@@ -36,24 +59,30 @@ footer .logfoot .sociales {
   align-items: center;
   align-content: center; }
 
-header nav .barra {
-  background-color: #ffffff; }
-  header nav .barra img {
-    max-width: 180px; }
-  header nav .barra ul li a {
-    text-align: center;
-    color: #004aad;
-    font-size: 1.2em;
-    transition: all 0.2s; }
-    header nav .barra ul li a:hover {
+li {
+  list-style: none; }
+
+header {
+  border-bottom: 5px solid #004aad; }
+  header nav .barra {
+    background-color: #ffffff; }
+    header nav .barra img {
+      max-width: 180px; }
+    header nav .barra ul li a {
+      text-align: center;
       color: #004aad;
-      border-left: solid 7px #004aad; }
+      font-size: 1.2em;
+      transition: all 0.2s; }
+      header nav .barra ul li a:hover {
+        color: #004aad;
+        padding-bottom: 20px;
+        border-left: solid 7px #004aad; }
 
 @media (min-width: 990px) {
-  header nav .barra img {
-    max-width: 250px; }
-  header nav .barra ul {
-    padding-left: 34em; }
+  header nav .barra {
+    display: flex; }
+    header nav .barra img {
+      max-width: 250px; }
     header nav .barra ul li a {
       font-size: 1.4em;
       transition: all 0.2s; }
@@ -67,3 +96,6 @@ footer .logfoot .sociales {
   justify-content: center;
   align-items: center;
   align-content: center; }
+
+li {
+  list-style: none; }
