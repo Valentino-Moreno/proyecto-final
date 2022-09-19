@@ -198,6 +198,7 @@ li {
       #servini .serviniContainer .servicio:hover {
         background-color: rgba(149, 159, 194, 0.199); }
       #servini .serviniContainer .servicio h3 {
+        height: 20vh;
         font-size: 1.8em;
         border-bottom: 3px solid #004aad;
         padding: 20px 5px;

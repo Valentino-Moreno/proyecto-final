@@ -47,6 +47,7 @@
                 background-color: rgba(149, 159, 194, 0.199);
             }
             h3{
+                height: 20vh;
                 font-size: $tamh3;
                 border-bottom: 3px solid map-get($colores,azul);
                 padding: 20px 5px;
