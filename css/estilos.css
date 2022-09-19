@@ -4,7 +4,7 @@
   padding: 0;
   font-family: 'Rubik', sans-serif; }
 
-footer .logfoot .sociales, .inicio {
+footer .logfoot .sociales, .inicio, #servini, #servini .servicio h2, #servini .servicio p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +59,7 @@ footer {
   background-color: black;
   height: 100vh; }
 
-footer .logfoot .sociales, .inicio {
+footer .logfoot .sociales, .inicio, #servini, #servini .servicio h2, #servini .servicio p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,7 +117,7 @@ header {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     transform: translateY(-5px); }
 
-footer .logfoot .sociales, .inicio {
+footer .logfoot .sociales, .inicio, #servini, #servini .servicio h2, #servini .servicio p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,7 +132,7 @@ footer .logfoot .sociales, .inicio {
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio {
+footer .logfoot .sociales, .inicio, #servini, #servini .servicio h2, #servini .servicio p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,3 +180,28 @@ li {
     .inicio .borro p {
       color: white;
       font-size: 1.5em; }
+
+#servini {
+  flex-direction: column;
+  background-color: white;
+  padding: 80px 0px; }
+  #servini .servicio {
+    background-color: white;
+    max-width: 85%;
+    margin: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; }
+    #servini .servicio h2 {
+      border-bottom: 3px solid #004aad;
+      padding: 20px 5px;
+      color: #5272ff; }
+    #servini .servicio p {
+      color: black;
+      margin: 20px 5px;
+      text-align: start;
+      padding: 0px 10px; }
+
+@media (min-width: 990px) {
+  .inicio {
+    height: 70vh; }
+    .inicio .borro p {
+      font-size: 2em; } }

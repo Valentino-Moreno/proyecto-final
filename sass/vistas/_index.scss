@@ -25,6 +25,40 @@
             font-size: $tamp;
         }
     }
-
-
 }
+#servini{
+    @extend %centrar;
+    flex-direction: column;
+    background-color: white;
+    padding: 80px 0px;
+    .servicio{
+        background-color: white;
+        max-width: 85%;
+        margin: 20px 0px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        h2{
+            border-bottom: 3px solid map-get($colores,azul);
+            padding: 20px 5px;
+            color: map-get($colores,celeste);
+            @extend %centrar;
+        }
+        p{
+            color: black;
+            margin: 20px 5px;
+            @extend %centrar;
+            text-align: start;
+            padding: 0px 10px;
+            
+        }
+    }
+}
+@media (min-width: 990px){
+     .inicio{
+         height: 70vh;
+         .borro{
+             p{
+                 font-size: $tamp_e;
+             }
+         }
+     }
+ }
