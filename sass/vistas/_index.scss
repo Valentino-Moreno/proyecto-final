@@ -1,0 +1,30 @@
+@import "../utiles/vars";
+@import "../utiles/compo";
+
+.inicio{
+    @extend %centrar;
+    flex-direction: column;
+    padding: 20px 10px 40px 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/8204355/pexels-photo-8204355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    @extend %imagen;
+    height: 90vh;
+    .borro{
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        border-radius: 20px;
+        margin: 10px 5px;
+        padding: 60px 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        h1{
+            color: map-get($colores, azul);
+            font-size: $tamh1;
+            font-weight: bold;
+        }
+        p{
+            color: white;
+            font-size: $tamp;
+        }
+    }
+
+
+}

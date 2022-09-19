@@ -12,6 +12,8 @@ $colores:(
 
 $tama:1.2em;
 $tam-sociales:3em;
+$tamh1:6em;
+$tamp:1.5em;
 
 
 // variables vista escritorio
@@ -25,6 +27,13 @@ $tama_e:1.4em;
     justify-content: center;
     align-items: center;
     align-content: center;
+    text-align: center;
+}
+
+%imagen{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 li{

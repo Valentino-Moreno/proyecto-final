@@ -4,11 +4,17 @@
   padding: 0;
   font-family: 'Rubik', sans-serif; }
 
-footer .logfoot .sociales {
+footer .logfoot .sociales, .inicio {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center; }
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 li {
   list-style: none; }
@@ -53,11 +59,17 @@ footer {
   background-color: black;
   height: 100vh; }
 
-footer .logfoot .sociales {
+footer .logfoot .sociales, .inicio {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center; }
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 li {
   list-style: none; }
@@ -91,11 +103,80 @@ header {
         border-left: none;
         border-bottom: 5px solid #004aad; } }
 
-footer .logfoot .sociales {
+.botonServicios {
+  border: none;
+  background-color: #5272ff;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  color: #ffffff;
+  font-size: 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  transition: all 0.5s; }
+  .botonServicios:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transform: translateY(-5px); }
+
+footer .logfoot .sociales, .inicio {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center; }
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 li {
   list-style: none; }
+
+footer .logfoot .sociales, .inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
+.botonServicios {
+  border: none;
+  background-color: #5272ff;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  color: #ffffff;
+  font-size: 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  transition: all 0.5s; }
+  .botonServicios:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transform: translateY(-5px); }
+
+.inicio {
+  flex-direction: column;
+  padding: 20px 10px 40px 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.pexels.com/photos/8204355/pexels-photo-8204355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 90vh; }
+  .inicio .borro {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 60px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; }
+    .inicio .borro h1 {
+      color: #004aad;
+      font-size: 6em;
+      font-weight: bold; }
+    .inicio .borro p {
+      color: white;
+      font-size: 1.5em; }
