@@ -12,6 +12,8 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <!-- ANIMACIONES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- MIS ESTILOS -->
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
@@ -67,34 +69,42 @@
         </p>
       </div>
       <a href="paginas/contacto.html"
-        ><button class="botonServicios">Contactanos</button></a
+        ><button class="boton1">Contactanos</button></a
       >
     </section>
     <section id="servini">
-      <div class="servicio">
-        <h2>Transformacion Digital</h2>
-        <p>
-          La #transformacióndigital es el cambio asociado con la aplicación de
-          las tecnologías digitales en todos todos los procesos que involucren
-          personas y organizaciones.
-        </p>
+      <h2 class="py-2">Servicios</h2>
+      <div class="serviniContainer">
+        <div data-aos="fade-right" class="servicio">
+          <h3>Transformacion Digital</h3>
+          <p>
+            La #transformacióndigital es el cambio asociado con la aplicación de
+            las tecnologías digitales en todos todos los procesos que involucren
+            personas y organizaciones.
+          </p>
+        </div>
+        <div data-aos="fade-left" class="servicio">
+          <h3>Soporte Técnico Informático</h3>
+          <p>
+            Nuestro modelo de prestación de servicios como Soporte Técnico
+            Informático, ha sido utilizado exitosamente por más de 20 años en
+            diferentes empresas de Argentina y el Mercosur, logrando disminuir
+            la cantidad de incidencias mensuales y los tiempos de parada de los
+            equipos y sistemas de toda la empresa.
+          </p>
+        </div>
+        <div data-aos="fade-right" class="servicio">
+          <h3>Infraestructura IT</h3>
+          <p>
+            La complejidad de los sistemas informáticos hace necesario contar
+            con especialistas competentes para tomar decisiones acerca de la
+            compra o renovación de sistemas, equipamiento y redes.
+          </p>
+        </div>
       </div>
-      <div class="servicio">
-        <h2>Transformacion Digital</h2>
-        <p>
-          La #transformacióndigital es el cambio asociado con la aplicación de
-          las tecnologías digitales en todos todos los procesos que involucren
-          personas y organizaciones.
-        </p>
-      </div>
-      <div class="servicio">
-        <h2>Transformacion Digital</h2>
-        <p>
-          La #transformacióndigital es el cambio asociado con la aplicación de
-          las tecnologías digitales en todos todos los procesos que involucren
-          personas y organizaciones.
-        </p>
-      </div>
+      <a class="py-4" href="paginas/contacto.html"
+        ><button class="boton1">Ver mas</button></a
+      >
     </section>
     <footer>
       <div class="logfoot">
@@ -117,7 +127,11 @@
         </div>
       </div>
     </footer>
-
+    <!-- ANIMACIONES AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Libreria iconos -->
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     <!-- BOOTSTRAP JavaScript Bundle with Popper -->
