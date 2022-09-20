@@ -47,8 +47,8 @@
                 background-color: rgba(149, 159, 194, 0.199);
             }
             h3{
-                height: 20vh;
-                font-size: $tamh3;
+                height: 15vh;
+                font-size: $tittarj;
                 border-bottom: 3px solid map-get($colores,azul);
                 padding: 20px 5px;
                 color: map-get($colores,celeste);
@@ -59,9 +59,9 @@
                 color: black;
                 margin: 20px 5px;
                 @extend %centrar;
-                text-align: justify;
+                text-align: start !important;
                 padding: 0px 10px;
-                font-size: $tamp;   
+                font-size: $texttarj;   
             }
         }
     }
@@ -78,15 +78,25 @@
      }
     #servini{
         h2{
-            font-size: $tamh2_e;
+            font-size: $tamh2;
+        }
+        p{
+            font-size: $tamp - 0.8;
+
         }
         .serviniContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-wrap: wrap;
             flex-direction: row;
             align-items: flex-start;
             margin: 0px 40px;
             .servicio{
-                width: 33%;
-                margin: 0px 20px;
+                width: 25%;
+                margin: 20px 20px;
                 height: 35em;
 
             }
