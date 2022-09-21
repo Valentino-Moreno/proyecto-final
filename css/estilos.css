@@ -499,9 +499,9 @@ li {
   #proyectos .descripcionProyecto ul li {
     font-size: 1.2em;
     color: #737373; }
+    #proyectos .descripcionProyecto ul li:hover .nave {
+      transform: rotate(-43deg);
+      width: 40px; }
     #proyectos .descripcionProyecto ul li .nave {
       width: 30px;
       transition: all 0.5s; }
-      #proyectos .descripcionProyecto ul li .nave:hover {
-        transform: rotate(-43deg);
-        width: 40px; }

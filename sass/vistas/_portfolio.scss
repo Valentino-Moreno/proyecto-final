@@ -29,13 +29,15 @@
             li{
                 font-size: 1.2em;
                 color: map-get($colores,gris);
-                .nave{
-                    width: 30px;
-                    transition: all 0.5s;
-                    &:hover{
+                &:hover{
+                    .nave{
                         transform: rotate(-43deg);
                         width: 40px;
                     }
+                }
+                .nave{
+                    width: 30px;
+                    transition: all 0.5s;
                 }
             }
         }
