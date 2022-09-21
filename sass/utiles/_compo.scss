@@ -1,3 +1,5 @@
+@import "../utiles/vars";
+
 .boton1{
     border: none;
     background-color: map-get($colores,celeste);
@@ -11,5 +13,23 @@
     &:hover{
         box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         transform: translateY(-5px);
+    }
+}
+
+.boton2{
+    border: none;
+    font-size: 1.5em;
+    color: map-get($colores, blanco);
+    background-color: map-get($colores , celeste );
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all 0.1s;
+    &:hover{
+        background-color: white;
+        color: map-get($colores,celeste);
+        border: 3px solid map-get($colores,celeste);
     }
 }

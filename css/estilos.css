@@ -103,6 +103,21 @@ header {
         border-left: none;
         border-bottom: 5px solid #004aad; } }
 
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
 .boton1 {
   border: none;
   background-color: #5272ff;
@@ -116,6 +131,22 @@ header {
   .boton1:hover {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     transform: translateY(-5px); }
+
+.boton2 {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.1s; }
+  .boton2:hover {
+    background-color: white;
+    color: #5272ff;
+    border: 3px solid #5272ff; }
 
 footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
   display: flex;
@@ -147,6 +178,21 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
 .boton1 {
   border: none;
   background-color: #5272ff;
@@ -160,6 +206,22 @@ li {
   .boton1:hover {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     transform: translateY(-5px); }
+
+.boton2 {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.1s; }
+  .boton2:hover {
+    background-color: white;
+    color: #5272ff;
+    border: 3px solid #5272ff; }
 
 .inicio {
   flex-direction: column;
@@ -250,6 +312,21 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
 .boton1 {
   border: none;
   background-color: #5272ff;
@@ -263,6 +340,22 @@ li {
   .boton1:hover {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     transform: translateY(-5px); }
+
+.boton2 {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.1s; }
+  .boton2:hover {
+    background-color: white;
+    color: #5272ff;
+    border: 3px solid #5272ff; }
 
 #serviciosEsp {
   padding-top: 10px; }
@@ -321,3 +414,94 @@ li {
       box-shadow: #26394d 0px 20px 30px -10px; }
   .py0 {
     padding: 0px auto; } }
+
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
+.boton1 {
+  border: none;
+  background-color: #5272ff;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  color: #ffffff;
+  font-size: 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  transition: all 0.5s; }
+  .boton1:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transform: translateY(-5px); }
+
+.boton2 {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.1s; }
+  .boton2:hover {
+    background-color: white;
+    color: #5272ff;
+    border: 3px solid #5272ff; }
+
+#proyectos h1 {
+  font-size: 3.5em;
+  text-align: center;
+  padding: 20px 5px;
+  color: #004aad; }
+
+#proyectos .descripcionProyecto h2 {
+  font-size: 2.6em;
+  padding: 10px 5px 0px 10px;
+  text-align: start;
+  color: #5272ff; }
+
+#proyectos .descripcionProyecto p {
+  font-size: 1.3em;
+  text-align: justify;
+  padding: 0px 20px 0px 20px;
+  color: #737373; }
+
+#proyectos .descripcionProyecto ul {
+  padding: 0;
+  padding-left: 20px; }
+  #proyectos .descripcionProyecto ul li {
+    font-size: 1.2em;
+    color: #737373; }
+    #proyectos .descripcionProyecto ul li .nave {
+      width: 30px;
+      transition: all 0.5s; }
+      #proyectos .descripcionProyecto ul li .nave:hover {
+        transform: rotate(-43deg);
+        width: 40px; }
