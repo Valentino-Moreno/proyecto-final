@@ -26,10 +26,26 @@
     padding: 5px 15px;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    transition: all 0.1s;
+    transition: all 0.3s;
     &:hover{
         background-color: white;
         color: map-get($colores,celeste);
         border: 3px solid map-get($colores,celeste);
+    }
+}
+
+.botonContacto{
+    border: none;
+    font-size: 1.5em;
+    color: map-get($colores, blanco);
+    background-color: map-get($colores , celeste );
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all 0.3s;
+    &:hover{
+        transform: translateY(-5px);
     }
 }

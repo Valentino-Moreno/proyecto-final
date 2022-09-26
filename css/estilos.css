@@ -4,7 +4,7 @@
   padding: 0;
   font-family: 'Rubik', sans-serif; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,7 @@ footer {
         font-size: 3em;
         padding: 0px 5px; }
 
-@media (min-width: 990px) {
+@media (min-width: 1024px) {
   footer .logfoot {
     display: flex;
     flex-direction: row;
@@ -59,7 +59,7 @@ footer {
   background-color: black;
   height: 100vh; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,7 +90,7 @@ header {
         padding-bottom: 20px;
         border-left: solid 7px #004aad; }
 
-@media (min-width: 990px) {
+@media (min-width: 1024) {
   header nav .barra {
     display: flex; }
     header nav .barra img {
@@ -103,7 +103,7 @@ header {
         border-left: none;
         border-bottom: 5px solid #004aad; } }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,13 +142,27 @@ li {
   padding: 5px 15px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  transition: all 0.1s; }
+  transition: all 0.3s; }
   .boton2:hover {
     background-color: white;
     color: #5272ff;
     border: 3px solid #5272ff; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+.botonContacto {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.3s; }
+  .botonContacto:hover {
+    transform: translateY(-5px); }
+
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,7 +177,7 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,7 +192,7 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,11 +231,25 @@ li {
   padding: 5px 15px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  transition: all 0.1s; }
+  transition: all 0.3s; }
   .boton2:hover {
     background-color: white;
     color: #5272ff;
     border: 3px solid #5272ff; }
+
+.botonContacto {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.3s; }
+  .botonContacto:hover {
+    transform: translateY(-5px); }
 
 .inicio {
   flex-direction: column;
@@ -273,7 +301,7 @@ li {
         padding: 0px 10px;
         font-size: 1.2em; }
 
-@media (min-width: 990px) {
+@media (min-width: 1024px) {
   .inicio {
     height: 70vh; }
     .inicio .borro p {
@@ -297,7 +325,7 @@ li {
       margin: 20px 20px;
       height: 35em; } }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -312,7 +340,7 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -351,11 +379,25 @@ li {
   padding: 5px 15px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  transition: all 0.1s; }
+  transition: all 0.3s; }
   .boton2:hover {
     background-color: white;
     color: #5272ff;
     border: 3px solid #5272ff; }
+
+.botonContacto {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.3s; }
+  .botonContacto:hover {
+    transform: translateY(-5px); }
 
 #serviciosEsp {
   padding-top: 10px; }
@@ -375,7 +417,7 @@ li {
 #servini {
   padding: 0; }
 
-@media (min-width: 990px) {
+@media (min-width: 1024px) {
   #serviciosEsp {
     display: flex;
     flex-direction: row-reverse;
@@ -415,7 +457,7 @@ li {
   .py0 {
     padding: 0px auto; } }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -430,7 +472,7 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -469,11 +511,25 @@ li {
   padding: 5px 15px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  transition: all 0.1s; }
+  transition: all 0.3s; }
   .boton2:hover {
     background-color: white;
     color: #5272ff;
     border: 3px solid #5272ff; }
+
+.botonContacto {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.3s; }
+  .botonContacto:hover {
+    transform: translateY(-5px); }
 
 #proyectos h1 {
   font-size: 3.5em;
@@ -481,27 +537,142 @@ li {
   padding: 20px 5px;
   color: #004aad; }
 
-#proyectos .descripcionProyecto h2 {
+#proyectos .unProyecto .descripcionProyecto h2 {
   font-size: 2.6em;
   padding: 10px 5px 0px 10px;
   text-align: start;
   color: #5272ff; }
 
-#proyectos .descripcionProyecto p {
+#proyectos .unProyecto .descripcionProyecto p {
   font-size: 1.3em;
   text-align: justify;
   padding: 0px 20px 0px 20px;
   color: #737373; }
 
-#proyectos .descripcionProyecto ul {
+#proyectos .unProyecto .descripcionProyecto ul {
   padding: 0;
   padding-left: 20px; }
-  #proyectos .descripcionProyecto ul li {
+  #proyectos .unProyecto .descripcionProyecto ul li {
     font-size: 1.2em;
-    color: #737373; }
-    #proyectos .descripcionProyecto ul li:hover .nave {
+    color: #737373;
+    transition: all 0.5s; }
+    #proyectos .unProyecto .descripcionProyecto ul li:hover .nave {
       transform: rotate(-43deg);
       width: 40px; }
-    #proyectos .descripcionProyecto ul li .nave {
+    #proyectos .unProyecto .descripcionProyecto ul li .nave {
       width: 30px;
       transition: all 0.5s; }
+
+@media (min-width: 1024px) {
+  #proyectos .unProyecto {
+    display: flex;
+    margin: 40px 0px; }
+    #proyectos .unProyecto img {
+      width: 50%; }
+    #proyectos .unProyecto .descripcionProyecto {
+      background-color: #5272ff18;
+      margin-left: 20px; } }
+
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
+.boton1 {
+  border: none;
+  background-color: #5272ff;
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  color: #ffffff;
+  font-size: 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  transition: all 0.5s; }
+  .boton1:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transform: translateY(-5px); }
+
+.boton2 {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.3s; }
+  .boton2:hover {
+    background-color: white;
+    color: #5272ff;
+    border: 3px solid #5272ff; }
+
+.botonContacto {
+  border: none;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #5272ff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.3s; }
+  .botonContacto:hover {
+    transform: translateY(-5px); }
+
+#contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 20px 400px 20px; }
+  #contacto .cardContacto {
+    background-color: rgba(0, 0, 0, 0.548);
+    border-bottom: 4px solid #004aad; }
+    #contacto .cardContacto h1 {
+      font-size: 2.6em;
+      color: white;
+      padding: 30px 0px 15px 0px; }
+    #contacto .cardContacto form input {
+      background-color: rgba(54, 51, 51, 0);
+      margin: 20px 0px;
+      width: 80%;
+      border: none;
+      border-bottom: 1px solid #5272ff;
+      height: 50px;
+      transition: all 0.5s; }
+      #contacto .cardContacto form input::placeholder {
+        padding-left: 10px;
+        color: white;
+        text-transform: uppercase; }
+      #contacto .cardContacto form input:focus {
+        height: 60px; }
+    #contacto .cardContacto form button {
+      margin: 20px 0px; }

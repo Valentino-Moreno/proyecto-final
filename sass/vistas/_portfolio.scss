@@ -8,41 +8,58 @@
         padding: 20px 5px;
         color: map-get($colores,azul);
     }
-    .descripcionProyecto{
-        h2{
-            font-size: $tamh2 - 0.4;
-            // padding: 10px 5px 5px 10px;
-            padding: 10px 5px 0px 10px;
-            text-align: start;
-            color: map-get($colores,celeste);
-        }
-        p{
-            font-size: $tamp - 0.2;
-            text-align: justify;
-            padding: 0px 20px 0px 20px;
-            color: map-get($colores,gris);
+    .unProyecto{        
+        .descripcionProyecto{
 
-        }
-        ul{
-            padding: 0;
-            padding-left: 20px;
-            li{
-                font-size: 1.2em;
+            h2{
+                font-size: $tamh2 - 0.4;
+                // padding: 10px 5px 5px 10px;
+                padding: 10px 5px 0px 10px;
+                text-align: start;
+                color: map-get($colores,celeste);
+            }
+            p{
+                font-size: $tamp - 0.2;
+                text-align: justify;
+                padding: 0px 20px 0px 20px;
                 color: map-get($colores,gris);
-                &:hover{
-                    .nave{
-                        transform: rotate(-43deg);
-                        width: 40px;
-                    }
-                }
-                .nave{
-                    width: 30px;
+
+            }
+            ul{
+                padding: 0;
+                padding-left: 20px;
+                li{
+                    font-size: 1.2em;
+                    color: map-get($colores,gris);
                     transition: all 0.5s;
+                    &:hover{
+                        .nave{
+                            transform: rotate(-43deg);
+                            width: 40px;
+                        }
+                    }
+                    .nave{
+                        width: 30px;
+                        transition: all 0.5s;
+                    }
                 }
             }
         }
-        button{
-        }
     }
+}
 
+@media (min-width: 1024px){
+    #proyectos{
+        .unProyecto{
+            display: flex;
+            margin: 40px 0px;
+            img{
+                width: 50%;
+            }
+            .descripcionProyecto{
+                background-color: #5272ff18;
+                margin-left: 20px;
+            }
+        }
+    }    
 }
