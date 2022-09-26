@@ -4,7 +4,7 @@
   padding: 0;
   font-family: 'Rubik', sans-serif; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +59,7 @@ footer {
   background-color: black;
   height: 100vh; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +103,7 @@ header {
         border-left: none;
         border-bottom: 5px solid #004aad; } }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,7 +162,7 @@ li {
   .botonContacto:hover {
     transform: translateY(-5px); }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,7 +177,7 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,7 +192,7 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -325,7 +325,7 @@ li {
       margin: 20px 20px;
       height: 35em; } }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -340,7 +340,7 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -457,7 +457,7 @@ li {
   .py0 {
     padding: 0px auto; } }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -472,7 +472,7 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -573,7 +573,7 @@ li {
       background-color: #5272ff18;
       margin-left: 20px; } }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -588,7 +588,7 @@ footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servi
 li {
   list-style: none; }
 
-footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto {
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -652,12 +652,13 @@ li {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh; }
+  height: 100vh; }
   #contacto .cardContacto {
     background-color: rgba(0, 0, 0, 0.548);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-bottom: 4px solid #004aad;
-    margin: 0px 20px; }
+    margin: 0px 20px;
+    padding: 0px 10px; }
     #contacto .cardContacto h1 {
       font-size: 2.6em;
       color: white;
@@ -704,3 +705,46 @@ li {
         color: white; }
       #contacto .ubi iframe {
         height: 40vh; } }
+
+footer .logfoot .sociales, .inicio, #servini, #servini .serviniContainer, #servini .serviniContainer .servicio h3, #servini .serviniContainer .servicio p, #serviciosEsp, #contacto, .clientesDescrip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.inicio {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+li {
+  list-style: none; }
+
+.clientesDescrip {
+  flex-direction: column;
+  background-color: #004aad;
+  color: white;
+  padding: 40px 10px; }
+  .clientesDescrip h1 {
+    font-size: 4em; }
+  .clientesDescrip p {
+    font-size: 1.5em;
+    max-width: 500px; }
+
+.clientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px; }
+  .clientes img {
+    height: 300px; }
+  .clientes .tarjetaDescrip {
+    height: 200px; }
+
+@media (min-width: 1024px) {
+  .clientes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; } }

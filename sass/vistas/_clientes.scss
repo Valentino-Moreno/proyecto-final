@@ -1,0 +1,38 @@
+@import"../utiles/vars";
+
+.clientesDescrip{
+    @extend %centrar;
+    flex-direction: column;
+    background-color: map-get($colores,azul);
+    color: white;
+    padding: 40px 10px;
+    h1{
+        font-size: 4em;
+    }
+    p{
+        font-size: 1.5em;
+        max-width: 500px;
+    }
+}
+.clientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+    img{
+        height: 300px;
+    }
+    .tarjetaDescrip{
+        height: 200px;
+    }
+}
+
+
+@media (min-width: 1024px){
+        .clientes{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:center;
+        }
+    }
