@@ -652,11 +652,12 @@ li {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 200px 20px 400px 20px; }
+  height: 80vh; }
   #contacto .cardContacto {
     background-color: rgba(0, 0, 0, 0.548);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-bottom: 4px solid #004aad; }
+    border-bottom: 4px solid #004aad;
+    margin: 0px 20px; }
     #contacto .cardContacto h1 {
       font-size: 2.6em;
       color: white;
@@ -683,7 +684,8 @@ li {
 @media (min-width: 1024px) {
   #contacto {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    height: 140vh; }
     #contacto .cardContacto {
       max-width: 500px;
       height: 500px;
