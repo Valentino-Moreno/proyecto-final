@@ -90,7 +90,7 @@ header {
         padding-bottom: 20px;
         border-left: solid 7px #004aad; }
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
   header nav .barra {
     display: flex; }
     header nav .barra img {

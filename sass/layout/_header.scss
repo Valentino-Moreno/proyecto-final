@@ -20,7 +20,7 @@ header{
                         &:hover{
                             color: map-get($colores,azul);
                             padding-bottom: 20px;
-                            border-left: solid 7px map-get($colores,azul );
+                            border-left: solid 7px map-get($colores,azul ); 
                         }
                     }
                 }
@@ -28,7 +28,7 @@ header{
         }
     }
 }
-@media (min-width: 1024){
+@media (min-width: 1024px){
     header{
         nav{
             .barra{
@@ -37,7 +37,6 @@ header{
                     max-width: 250px;
                 }
                 ul{
-                    // padding-left: 20em;
                     li{
                         a{
                             font-size: $tama_e;
