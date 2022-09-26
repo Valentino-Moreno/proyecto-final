@@ -9,6 +9,7 @@
     @extend %centrar;
     .cardContacto{
         background-color: rgba(0, 0, 0, 0.548);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-bottom: 4px solid #004aad;
         h1{
             font-size: 2.6em;
@@ -35,6 +36,38 @@
             }
             button{
                 margin: 20px 0px;
+            }
+        }
+    }
+    .ubi{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+    #contacto{
+        display: flex;
+        justify-content: space-around;
+        .cardContacto{
+            max-width: 500px;
+            height: 500px;
+            border-bottom: 4px solid #004aad;
+        }
+        .ubi{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            background-color: rgba(0, 0, 0, 0.548);
+            display: block;
+            padding: 10px 20px;
+            border-top: 4px solid #004aad;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            h2{
+                color: white;
+            }
+            iframe{
+                height: 40vh;
             }
         }
     }
